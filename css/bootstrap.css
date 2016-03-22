@@ -4623,10 +4623,12 @@ a.badge:focus {
   padding: 30px 15px;
   margin-bottom: 30px;
   color: #eee; //inherit;
-  background-image: url('../images/3128094486_3d702452ea_b.jpg');
+  background-image: url('../images/7079672879_45ecaedce9_o.jpg');
   background-color: #0d0c08; //#6fcde5; //#31a8c6; //#eee;
   background-repeat: no-repeat;
-  background-position: top right;
+  display: compact;
+  background-position: center;
+  background-size: cover;
   // text-shadow: #000 0px 0px 1px;
   text-shadow: 2px 2px #000;
     -webkit-font-smoothing: antialiased;
