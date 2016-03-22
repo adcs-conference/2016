@@ -1,0 +1,6 @@
+.anchor{
+   display:block;
+   height:50px; /* height of your header */
+   margin-top:-50px; /* negative of the height */
+   visibility:hidden;
+}
