@@ -12,5 +12,17 @@ List of ADCS past keynote speakers
 2007	Tetsuya Sakai, Justin Zobel 
 2006	
 2005	Virach Sornlertlamvanich (NICT)
+<<<<<<< HEAD
+2004	Susan Dumais
+2003	Ricardo Baeza-Yates
+2002
+2001
+2000
+1999
+1998
+1997
+1996
+=======
 2004
 2003	Ricardo Baeza-Yates
+>>>>>>> 34f258b3ece7d30b1e82f98176eaae54c105f4d9
