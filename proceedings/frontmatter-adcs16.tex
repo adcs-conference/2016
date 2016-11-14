@@ -1,53 +1,205 @@
-\documentclass{book}
+%%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%% Front matter for ADCS conference 
+%% Taken from Laurence Park's files from ADCS 2015
+%%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\usepackage[svgnames]{xcolor} % Required to specify font color
-\newcommand*{\plogo}{\fbox{$\mathcal{PL}$}} % Generic publisher logo
+\documentclass[a4paper]{article}
+\usepackage{multicol} % needed for the list of participants, index
+\usepackage[bottom=3cm]{geometry} % needed to change margins for articles
+\usepackage{graphicx}
 
-%----------------------------------------------------------------------------------------
-%	TITLE PAGE
-%----------------------------------------------------------------------------------------
+\pagestyle{plain}
+\thispagestyle{empty}
+\pagenumbering{roman}
 
-\newcommand*{\titleAT}{\begingroup % Create the command for including the title page in the document
-\newlength{\drop} % Command for generating a specific amount of whitespace
-\drop=0.1\textheight % Define the command as 10% of the total text height
+\begin{document}
 
-\rule{\textwidth}{1pt}\par % Thick horizontal line
-\vspace{2pt}\vspace{-\baselineskip} % Whitespace between lines
-\rule{\textwidth}{0.4pt}\par % Thin horizontal line
+\
+\vspace{1in}
 
-\vspace{\drop} % Whitespace between the top lines and title
-\centering % Center all text
-\textcolor{Red}{ % Red font color
-{\Huge THE BIG BOOK}\\[0.5\baselineskip] % Title line 1
-{\Large OF}\\[0.75\baselineskip] % Title line 2
-{\Huge \LaTeX ~Templates}} % Title line 3
 
-\vspace{0.25\drop} % Whitespace between the title and short horizontal line
-\rule{0.3\textwidth}{0.4pt}\par % Short horizontal line under the title
-\vspace{\drop} % Whitespace between the thin horizontal line and the author name
+%\begin{center}
+%{\Large\sc
+%Conferences in Research and Practice in \\
+%Information Technology \\
 
-{\Large \textsc{John Smith}}\par % Author name
+%\
 
-\vfill % Whitespace between the author name and publisher text
-{\large \textcolor{Red}{\plogo}}\\[0.5\baselineskip] % Publisher logo
-{\large \textsc{the publisher}}\par % Publisher
+%Volume 1}
+%\end{center}
 
-\vspace*{\drop} % Whitespace under the publisher text
+\begin{center}
+{\Huge ADCS 2016}
+\end{center}
 
-\rule{\textwidth}{0.4pt}\par % Thin horizontal line
-\vspace{2pt}\vspace{-\baselineskip} % Whitespace between lines
-\rule{\textwidth}{1pt}\par % Thick horizontal line
+\vspace{1in}
 
-\endgroup}
+{
 
-%----------------------------------------------------------------------------------------
-%	BLANK DOCUMENT
-%----------------------------------------------------------------------------------------
+\huge
+%\begin{center}
+    {
+\noindent
+Proceedings of the 21st Australasian Document\\[0.2em] Computing Symposium\\[0.5em]
+%\end{center}
+Caulfield, Victoria, Australia, December 6-7, 2016\\[5em]
+Sarvnaz Karimi and Mark Carman, Eds.
+}
+}
 
-\begin{document} 
+\begin{center}
+{\huge
 
-\pagestyle{empty} % Removes page numbers
+ISBN: 978-1-4503-4865-2}
+\end{center}
 
-\titleAT % This command includes the title page
+
+% -- Pre-2010 version, including the \raisebox for the ACSW logo
+% -- For ACSW 2010 acsw.pdf was replaced with a new logo 
+% -- new-acsw-large.png
+%
+%\begin{figure}[b]
+%\centerline{\epsfig{file=../../General/ACS2spot.pdf, width=0.2\linewidth}
+%\hspace{0.2in}
+%\raisebox{6ex}{\epsfig{file=../../General/acsw.pdf, width=0.30\linewidth}}
+%\hspace{0.2in}
+%\epsfig{file=../../General/CORElogo.pdf, width=0.25\linewidth}
+%}
+%\end{figure}
+
+%ACM_ICPS_v.2B.jpg
+
+\vfill
+
+\centerline{
+\includegraphics[width=0.3\textwidth]{bing-logo}
+\hfill
+\includegraphics[width=0.3\textwidth]{csiro-logo}
+\hfill
+\includegraphics[width=0.3\textwidth]{sigir-logo.png}
+}
+
+\vspace{1in}
+
+\hfill\includegraphics[width=0.2\textwidth]{icps-logo-plain}
+
+\newpage
+
+\section*{Preface}
+
+These proceedings contain the papers presented at ADCS 2016, the Twenty First 
+Australasian Document Computing Symposium, hosted by Monash University
+and held in Caulfield, VIC, Australia.
+
+Of the 25 papers submitted 8 were accepted as full papers and 6 were accepted
+as short papers (56\% acceptance rate).  The  full  written  version  of each submission received at
+least three anonymous reviews by independent, qualified international experts
+in the area. Dual submissions were explicitly prohibited.  The accepted
+contributions cover a diverse range of topics in document computing including
+efficiency, evaluation, summarisation, and information retrieval
+models.
+
+The symposium includes formal presentations which allow for questions and
+discussions, but also opportunities to share ideas during interactive sessions
+and informal gatherings. This benefit is certainly the greatest for document
+computing practitioners. This year, we also accepted abstracts (unrefereed) for informal poster presentations. This addition was suggested by ADCS steering committee to increase the chance for researchers, specifically PhD students, to present their early work for feedback in the poster session. The abstracts are only published on the symposium website. Once again we have collocated with the Australasian
+Language Technology Workshop (ALTA), sharing  a  keynote  talk, a poster session, and social events.
+
+We would like to thank the members of the program committee for their
+commitment to quality reviews. We would also like to thank ACM SIGIR, Bing, and
+CSIRO Data61 for their generous support of the event. We would
+also like to thank our keynote speakers, Nick Craswell and Manuel Cebrian, for sharing their views of new
+research trends in Information Retrieval and Social Networks. Finally, we thank all attendees of
+ADCS 2016 who made the trip to Caulfield.
+
+\vspace{1cm}
+\vspace{-1em}
+\begin{flushright}\noindent
+\textbf{Sarvnaz Karimi}\\
+CSIRO Data61\\[.1in]
+\textbf{Mark Carman}\\
+Monash University\\[.1in]
+ADCS 2016 Programme Chairs\\
+December 2016
+\end{flushright}
+
+\newpage
+
+
+\section*{Organising Committee}
+
+
+\subsection*{General Chair}
+
+Sarvnaz Karimi, CSIRO
+
+
+\subsection*{Programme Chairs}
+
+Sarvnaz Karimi, CSIRO\\
+Mark Carman, Monash University
+
+\subsection*{Programme Committee}
+Leif Azzopardi, Strathclyde University\\
+Peter Bailey, Microsoft (Bing)\\
+Matt Crane, University of Waterloo \\
+Shane Culpepper, RMIT University \\
+Sally Jo Cunningham, Waikato University \\
+David Eyers, University of Otago\\
+David Hawking, Microsoft (Bing) \\
+Gaya Jayasinghe, CSIRO\\
+Bevan Koopman, CSIRO \\
+Alistair Moffat, The University of Melbourne \\
+Laurence Park, University of Western Sydney\\
+Laurianne Sitbon, Queensland University of Technology\\
+Falk Scholer, RMIT University \\
+James A. Thom, RMIT University \\
+Paul Thomas, Microsoft (Bing) \\
+Andrew Trotman, University of Otago \\
+Andrew Turpin, The University of Melbourne \\
+Alexandra Uitdenbogerd, RMIT University\\
+Michiko Yasukawa, Gunma University \\
+Guido Zuccon, Queensland University of Technology
+
+\newpage
+
+\section*{List of Accepted Papers}
+
+\begin{enumerate}
+\item Andrew Trotman and Jimmy Lin. In Vacuo and In Situ Evaluation of SIMD Codecs
+    
+\item Benoit Potvin, Roger Villemaire and Ngoc-Tan Le. A Position-Based Method for the Extraction of Financial Information in PDF Documents
+
+\item Shane Culpepper, Charles Clarke and Jimmy Lin. Dynamic Cutoff Prediction in Multi-Stage Retrieval Systems
+
+\item Jimmy Jimmy, Guido Zuccon and Bevan Koopman. Boosting Titles does not Improve Retrieval Effectiveness
+
+\item Wern Han Lim, Mark Carman and Sze-Meng Wong. Estimating Domain-Specific User Expertise for Answer Retrieval in Community Question-Answering Platforms
+
+\item Tadele Damessie, Falk Scholer and Shane Culpepper. The Influence of Topic Difficulty, Relevance Level, and Document Ordering on Relevance Judging
+
+\item Dinesha Chathurani Nanayakkara Wasam Uluwitige, Shlomo Geva, Guido Zuccon, Vinod Chandran and Timothy Chappell. Effective User Relevance Feedback for Imag e Retrieval with Image Signatures 
+
+\item Sunghwan Mac Kim, Stephen Wan and Cecile Paris. Occupational Representativeness in Twitter
+
+\item Alistair Moffat. Judgment Pool Effects Caused by Query Variations
+
+\item Vincent Au, Paul Thomas and Gaya K. Jayasinghe. Query-Biased Summaries for Tabular Data
+
+\item Laurence Park. Uncertainty in Rank-Biased Precision
+
+\item Sheng Wang, Zhifeng Bao, Shane Culpepper, Timos Sellis, Mark Sanderson and Munkh-Erdene Yadamjav. Interactive Trip Planning Using Activity Trajectories
+
+\item Gaya K. Jayasinghe, Sarvnaz Karimi and Melanie Ayre. Evaluation of Retrieval Algorithms for Expertise Search 
+
+\item Evi Yulianti, Ruey-Cheng Chen, Falk Scholer and Mark Sanderson. Using Semantic and Context Features for Answer Summary Extraction
+
+\end{enumerate}
 
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+
