@@ -1,0 +1,49 @@
+	Call for Participation
+The 21st Australasian Document Computing Symposium (ADCS 2016)
+Monash University, Melbourne, Australia
+http://adcs-conference.org/2016/
+6-7 December 2016
+
+ADCS 2016 is an opportunity for researchers and practitioners in document
+management and information retrieval (IR) to meet and present their work. The
+symposium aims to cover all aspects of Document Computing - issues ranging from
+the fundamentals of document architectures and standards for markup, through
+storage, management, retrieval, authentication and workflow, to active and
+virtual documents. The symposium emphasises both commercial and academic issues
+by encouraging a variety of submissions.
+
+ADCS is co-located with Australasian Workshop for Language Technology (ALTA
+2016). This year we have Nick Craswell (Microsoft) and Manuel Cebrian (CSIRO
+Data61 & MIT Media Lab) as keynotes. A detailed programme will be made
+available soon. List of accepted long and short papers can be found below.
+
+Accepted papers
+
+-   Andrew Trotman and Jimmy Lin. In Vacuo and In Situ Evaluation of SIMD Codecs
+-   Benoit Potvin, Roger Villemaire and Ngoc-Tan Le. A Position-Based Method for the Extraction of Financial Information in PDF Documents
+-   Shane Culpepper, Charles Clarke and Jimmy Lin. Dynamic Cutoff Prediction in Multi-Stage Retrieval Systems
+-   Jimmy Jimmy, Guido Zuccon and Bevan Koopman. Boosting Titles does not Improve Retrieval Effectiveness
+-   Wern Han Lim, Mark Carman and Sze-Meng Wong. Estimating Domain-Specific User Expertise for Answer Retrieval in Community Question-Answering Platforms
+-   Tadele Damessie, Falk Scholer and Shane Culpepper. The Influence of Topic Difficulty, Relevance Level, and Document Ordering on Relevance Judging
+-   Dinesha Chathurani Nanayakkara Wasam Uluwitige, Shlomo Geva, Guido Zuccon, Vinod Chandran and Timothy Chappell. Effective User Relevance Feedback for Imag e Retrieval with Imag e Signatures
+-   Sunghwan Mac Kim, Stephen Wan and Cecile Paris. Occupational Representativeness in Twitter
+-   Alistair Moffat. Judgment Pool Effects Caused by Query Variations
+-   Vincent Au, Paul Thomas and Gaya K. Jayasinghe. Query-Biased Summaries for Tabular Data
+-   Laurence Park. Uncertainty in Rank-Biased Precision
+-   Sheng Wang, Zhifeng Bao, Shane Culpepper, Timos Sellis, Mark Sanderson and Munkh-Erdene Yadamjav. Interactive Trip Planning Using Activity Trajectories
+-   Gaya K. Jayasinghe, Sarvnaz Karimi and Melanie Ayre. Evaluation of Retrieval Algorithms for Expertise Search
+-   Evi Yulianti, Ruey-Cheng Chen, Falk Scholer and Mark Sanderson. Using Semantic and Context Features for Answer Summary Extraction
+
+Poster presentations
+- Jaewon Kim, Paul Thomas, Ramesh Sankaranarayana, Tom Gedeon and Hwan-Jin Yoon. Understanding Mobile Web Search Behaviour
+- Ameer Albahem. Dynamic Diversification in Information Retrieval
+- Riyad Alrihieli. Privacy Settings on Social Networks
+- Shiwei Zhang and Xiuzhen Zhang. Factors Affecting the Informativeness of Disaster Tweets
+- Laurianne Sitbon. Designing new information access technologies with People with Intellectual Disability
+- Xiaolu Lu, Alistair Moffat and Shane Culpepper. Estimating Deep Metric Scores Using Shallow Judgment Pools
+
+Registration
+
+Registration is now open: http://adcs-conference.org/2016/attending.html
+Deadline for registration is Friday 2nd of December 2016 (11:59pm, Sydney/Melbourne time).
+
